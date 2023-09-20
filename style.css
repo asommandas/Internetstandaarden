@@ -84,7 +84,7 @@ button {
 .trendsmain{
     margin-bottom: 30%;
     background-color:indigo;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     margin: 10%;
     border-radius: 40px;
 }
@@ -115,16 +115,11 @@ button {
     border-color:darkorchid;
     margin-left: 26%;
 }
-footer {
+.footer {
+    align-items: center;
     background-color: violet;
     color: aliceblue;
-    display: flex;
-    margin-top: 10%;
-    align-items: center;
-    padding-left: 15%;
-    padding-bottom: 10%;
 }
-
 .banner2 {
     height: 100vh;
     width: 100%;
