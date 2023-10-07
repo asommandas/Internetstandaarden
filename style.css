@@ -1,205 +1,395 @@
-.banner {
+.bannerhome {
     height: 100vh;
     width: 100%;
     background-image: url(foto/IMG_1166\ 2.jpg);
     background-size: cover;
     background-position: center;
 }
-.navbar {
+nav ul{
+    font-family: monospace;
     display: flex;
-    width: 85%;
-    padding-top: 40px;
-    padding-left:25%;
-    padding-right: 25%;
-    color: aliceblue;
-    font-family:monospace;
-    font-size: larger;
-}
-.navbar ul li{
+    justify-content: center;
+    gap: 30px;
     list-style: none;
-    display: inline-block;
-    margin: 0 20px;
+    padding-top: 5%;
+    font-size: 15px;
 }
-.content {
+.contentbanner {
     width: 100%;
     position: absolute;
     top: 28%;
     text-align: center;
 }
-.content h1 {
+.contentbanner h1 {
     font-size: 80px;
     color:darkorchid;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
 }
-.content p {
+.contentbanner p {
     color: aliceblue;
     margin-top: 0%;
     font-family: monospace;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
-button {
-    color:aliceblue;
-    border-radius: 25px;
-    font-weight: bold;
-    background-color:transparent;
-    padding: 9px;
-    border-color:aliceblue;
+.buttonheader:hover{
+    background-color:hotpink ;
+}
+.buttonheader {
+    background-color:blueviolet;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 30px;
+    padding: 5px;
+}
+.buttontrends:hover {
+    background-color: hotpink;
+}
+.buttontrends {
+    background-color:thistle;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+}
+.buttonlevels:hover {
+    background-color: hotpink;
+}
+.buttonlevels {
+    background-color:thistle;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
 }
 .over {
-    align-items: center;
-    margin: 10%;
+    background-color:thistle;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    display: flex;
+    gap: 5%;
 }
 .over img {
-    padding-left: 5%;
+    padding-left: 10%;
 }
-.over h2{
-    margin-left: 10%;
-    color: darkorchid;
-    padding-top: 8%;
-    padding-left: 50%;
-    font-family:monospace;
+.contentover {
+    color: darkmagenta;
+    width: 50%;
+    flex-direction: column;
 }
-.over p {
-    padding-left: 50%;
+.contentover p {
     font-family: monospace;
 }
-.course {
-    padding-top: 10%;
+.contentover h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
 }
-.course h2 {
-    padding-left: 40%;
-    color: darkorchid;
+.levelshome {
+    margin: 5%;
+    background-color: indigo;
+    padding: 5%;
+    border-radius: 30px;
+    gap: 5%;
+    display: flex;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+
 }
-.course img{
-    align-items: center;
-    padding-left: 9%;
+.levelshometekst h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
 }
-.row{
+.levelshometekst p {
+    font-family: monospace;
+}
+.levelshometekst {
+    flex-direction: column;
+    color: aliceblue;
+}
+.fototop {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+.row {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    padding-left: 5%;
+}
+.top {
+    margin: 5%;
+    margin-bottom: 5%;
+}
+
+.top h2{
+    text-align: center;
+    color: darkorchid;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+.top-col {
+    flex-basis: 30%;
+    background-color:darkmagenta;
+    border-radius: 25px;
+    padding: 5px;
+    color: aliceblue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.top-col h3 {
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+}
+.top-col p {
+    text-align: center;
+    padding: 5%;
+    font-family: monospace;
+}
+.top-col:hover {
+    background-color: hotpink;
 }
 .trendsmain{
-    margin-bottom: 30%;
     background-color:indigo;
-    padding-bottom: 150px;
-    margin: 10%;
-    border-radius: 40px;
+    padding: 5%;
+    display: flex;
+    gap: 5%;
+    text-align: center;
 }
-.trendsmain p {
+.trendstekst p {
     font-family: monospace;
-    padding-left: 45%;
-    padding-right: 15%;
     color: aliceblue;
 }
-.trendsmain h2 {
-    margin-left: 10%;
+.trendstekst h2 {
     color:aliceblue;
-    padding-top: 15%;
-    padding-left: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
-.trendsmain img {
-    padding-left: 8%;
-    padding-top: 7%;
-}
- .trendsmain button {
-    color:aliceblue;
-    border-radius: 25px;
-    font-weight: bold;
-    background-color:darkorchid;
-    padding: 9px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-color:darkorchid;
-    margin-left: 26%;
-}
-.footer {
-    align-items: center;
-    background-color: violet;
+footer {
+    background-color: hotpink;
+    font-family: monospace;
+    text-align: center;
     color: aliceblue;
+    padding: 10px;
 }
-.banner2 {
+.bannertrends {
     height: 100vh;
     width: 100%;
     background-image: url(foto/IMG_8837.jpg);
     background-size: cover;
     background-position: center;
 }
-.content2 h1 {
+.content h1 {
     color: darkorchid;
     font-size: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
-    padding-left: 40%;
+    text-align: center;
 }
-.content2 p {
-align-items: center;
-font-family: monospace;
-padding-left: 10%;
-padding-right: 10%;
+.content p {
+    text-align: center;
+    font-family: monospace;
+    padding-left: 10%;
+    padding-right: 10%;
 }
- main {
-    background-color: hotpink;
+ .midden {
+    background-color: thistle;
     margin: 5%;
-    margin-bottom: 20%;
-    padding-bottom: 2%;
+    padding: 5%;
+    border-radius: 60px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
  }
- .contentmain {
-    margin: 10%;
-    align-items: center;
-    color: aliceblue;
 
+ .contentmain {
+    color: darkmagenta;
+    display: flex;
+    gap: 5%;
+    margin: 10%;
  }
- .contentmain img {
-    padding-left: 5%;
-    padding-top: 5%;
+ .contentmaintekst h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
  }
- .contentmain h2 {
-    margin-left: 10%;
-    color: darkorchid;
-    padding-top: 10%;
-    padding-left: 50%;
- }
- .contentmain p {
-    padding-left: 45%;
+ .contentmaintekst p {
     font-family: monospace;
  }
-.contentmain2 {
+ .contentmaintekst {
+    flex-direction: column;
+ }
+ .contentmain2 {
+    color: darkmagenta;
+    display: flex;
+    gap: 5%;
     margin: 10%;
-    align-items: center;
-    color: aliceblue; 
 }
-.contentmain2 img {
-    padding-left: 5%;
-    padding-top: 5%;
+.contentmain2tekst h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
 }
-.contentmain2 h2 {
-    margin-left: 10%;
-    color: darkorchid;
-    padding-top: 10%;
-    padding-left: 50%;
-}
-.contentmain2 p {
-    padding-left: 45%;
+.contentmain2tekst p {
     font-family: monospace;
 }
 .contentmain3 {
+    color: darkmagenta;
+    display: flex;
+    gap: 5%;
     margin: 10%;
-    align-items: center;
-    color: aliceblue; 
 }
-.contentmain3 img {
-    padding-left: 5%;
-    padding-top: 5%;
+.contentmain3tekst h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
 }
-.contentmain3 h2 {
-    margin-left: 10%;
-    color: darkorchid;
-    padding-top: 10%;
-    padding-left: 50%;
-}
-.contentmain3 p {
-    padding-left: 45%;
+.contentmain3tekst p {
     font-family: monospace;
+}
+.levelcontent {
+    text-align: center;
+    font-family: monospace;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nummer1 {
+    background-color: indigo;
+    padding: 10%;
+    display: flex;
+    gap: 10vw;
+}
+.teksthouder {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.nummer1 h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.nummer1 p {
+    color: aliceblue;
+    font-family: monospace;
+}
+.bannerlevels {
+    height: 100vh;
+    width: 100%;
+    background-image: url(foto/IMG_1688.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    color: darkorchid;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    text-align: center;
+}
+.level1:hover{
+    background-color: blueviolet;
+}
+.level1 {
+    background-color: darkmagenta;
+    margin: 10%;
+    border-radius: 60px;
+    padding: 5%;
+    color: aliceblue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.level1 h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.level1 p {
+    text-align: center;
+    font-family: monospace;
+}
+.level2:hover{
+    background-color: blueviolet;
+}
+.level2 {
+    background-color: darkmagenta;
+    margin: 10%;
+    border-radius: 60px;
+    padding: 5%;
+    color: aliceblue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.level2 h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.level2 p {
+    text-align: center;
+    font-family: monospace;
+}
+.level3:hover {
+    background-color: blueviolet;
+}
+.level3 {
+    background-color: darkmagenta;
+    margin: 10%;
+    border-radius: 60px;
+    padding: 5%;
+    color: aliceblue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.level3 h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.level3 p{
+    text-align: center;
+    font-family: monospace;
+}
+.fotolevels {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+}
+.fotolevels2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+}
+.fotolevels3 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+}
+.tekstafspraak p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: monospace;
+}
+.container {
+    background-color: thistle;
+    color: darkmagenta;
+    font-family: monospace;
+    margin: 5%;
+}
+.afspraak {
+    display: flex;
+    justify-content: center;
+    background-color: thistle;
+}
+.title {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 5%;
+    letter-spacing: 2px;
+}
+.input-box input {
+    padding: 5%;
+    margin: 5%;
+   display: flex;
 }
