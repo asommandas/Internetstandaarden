@@ -179,7 +179,7 @@ footer {
     padding: 10px;
 }
 .bannertrends {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-image: url(foto/IMG_8837.jpg);
     background-size: cover;
@@ -274,7 +274,7 @@ footer {
     font-family: monospace;
 }
 .bannerlevels {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-image: url(foto/IMG_1688.jpg);
     background-size: cover;
